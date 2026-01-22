@@ -1,0 +1,83 @@
+@font-face {
+  font-family: coolvetica;
+  src: url(Coolvetica_Rg.otf)
+}
+@font-face {
+  font-family: marola;
+  src: url(MAROLA__.TTF)
+}
+
+
+body{
+    margin: 0;
+    background-color: black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: coolvetica;
+}
+
+.calendar {
+  width: 200px;
+  height: 200px;
+  background: #dbdbdb;
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(141, 25, 25, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.year {
+    margin-top: -25px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 40px;
+    border-top-left-radius : 30px;
+    border-top-right-radius : 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #dddddd;
+    background-color: #5e5c5a;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: coolvetica;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 30px #bfbfbf;
+    
+    
+}
+
+.day {
+    font-size: 85px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 30px #a8a8a8;
+    letter-spacing: 5px;
+}
+
+.month {
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8d8d8d;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: marola;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 30px #787878;
+   
+}
+
+
